@@ -1,0 +1,860 @@
+MongoDB shell version v5.0.3
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("89fc4a70-293f-4ac9-9ce6-f6ae0bc8e777") }
+MongoDB server version: 5.0.3
+{
+	"_batch" : [
+		{
+			"_id" : "Monaco",
+			"average" : 0.00289279758282314,
+			"maximum" : 0.00289279758282314,
+			"minimum" : 0.00289279758282314
+		},
+		{
+			"_id" : "South Africa",
+			"average" : 0.002586499470004275,
+			"maximum" : 0.0040541505141933635,
+			"minimum" : 0.0017335043301262825
+		},
+		{
+			"_id" : "Wallis and Futuna",
+			"average" : 0.002638253925838278,
+			"maximum" : 0.002843117093855067,
+			"minimum" : 0.002433390757821489
+		},
+		{
+			"_id" : "Cameroon",
+			"average" : 0.0024636695335422303,
+			"maximum" : 0.003317153919692311,
+			"minimum" : 0.001968164695338018
+		},
+		{
+			"_id" : "Ethiopia",
+			"average" : 0.0025473965952790036,
+			"maximum" : 0.0032854118632393782,
+			"minimum" : 0.0020553672857450286
+		},
+		{
+			"_id" : "Montenegro",
+			"average" : 0.0024006170716842257,
+			"maximum" : 0.0029526909667433993,
+			"minimum" : 0.0020736590894434217
+		},
+		{
+			"_id" : "New Zealand",
+			"average" : 0.002535979414491938,
+			"maximum" : 0.003370893869077877,
+			"minimum" : 0.00200150377965085
+		},
+		{
+			"_id" : "Belgium",
+			"average" : 0.0026140778626016405,
+			"maximum" : 0.0028997682388567075,
+			"minimum" : 0.0020047926099827215
+		},
+		{
+			"_id" : "Saudi Arabia",
+			"average" : 0.0025676484975670657,
+			"maximum" : 0.003209538869628018,
+			"minimum" : 0.0019971991294865286
+		},
+		{
+			"_id" : "Serbia",
+			"average" : 0.002574128577786146,
+			"maximum" : 0.00435483280468202,
+			"minimum" : 0.0018758801195867551
+		},
+		{
+			"_id" : "Qatar",
+			"average" : 0.0025750482706734883,
+			"maximum" : 0.0029599291029472684,
+			"minimum" : 0.0021901674383997087
+		},
+		{
+			"_id" : "Lebanon",
+			"average" : 0.002750900155800487,
+			"maximum" : 0.0032444431072334527,
+			"minimum" : 0.0022696782965005375
+		},
+		{
+			"_id" : "South Korea",
+			"average" : 0.0024614670371136027,
+			"maximum" : 0.003135384445026281,
+			"minimum" : 0.00177249711658137
+		},
+		{
+			"_id" : "Lithuania",
+			"average" : 0.0024414208345235186,
+			"maximum" : 0.0030887830005968033,
+			"minimum" : 0.001968833974966633
+		},
+		{
+			"_id" : "Venezuela",
+			"average" : 0.002485058801442776,
+			"maximum" : 0.0031135855490289446,
+			"minimum" : 0.001886211751235061
+		},
+		{
+			"_id" : "Republic of the Congo",
+			"average" : 0.0025559867696319754,
+			"maximum" : 0.003040321009942462,
+			"minimum" : 0.0017661407823502014
+		},
+		{
+			"_id" : "Andorra",
+			"average" : 0.002817228365474951,
+			"maximum" : 0.0030652080781507387,
+			"minimum" : 0.0025692486527991625
+		},
+		{
+			"_id" : "Vietnam",
+			"average" : 0.0024984213196629903,
+			"maximum" : 0.0032970728944432376,
+			"minimum" : 0.0016588074623788908
+		},
+		{
+			"_id" : "Saint Kitts and Nevis",
+			"average" : 0.002780112893513996,
+			"maximum" : 0.0030062612063272154,
+			"minimum" : 0.002518137321901941
+		},
+		{
+			"_id" : "Malaysia",
+			"average" : 0.002561238899059476,
+			"maximum" : 0.003653428355033911,
+			"minimum" : 0.001854461856797744
+		},
+		{
+			"_id" : "Guinea",
+			"average" : 0.0027914221596798206,
+			"maximum" : 0.0034462128538412366,
+			"minimum" : 0.0020460478773371795
+		},
+		{
+			"_id" : "Sint Maarten",
+			"average" : 0.002316078482034497,
+			"maximum" : 0.0024103065474104022,
+			"minimum" : 0.0022218504166585913
+		},
+		{
+			"_id" : "Angola",
+			"average" : 0.002417967562103932,
+			"maximum" : 0.0031674804914051647,
+			"minimum" : 0.001836240074409329
+		},
+		{
+			"_id" : "Eritrea",
+			"average" : 0.0026186666767587788,
+			"maximum" : 0.0028706187680256324,
+			"minimum" : 0.002450268874944324
+		},
+		{
+			"_id" : "Zambia",
+			"average" : 0.0025857875377943594,
+			"maximum" : 0.0031448646035048588,
+			"minimum" : 0.0020338719513529027
+		},
+		{
+			"_id" : "Iceland",
+			"average" : 0.0025590950932535754,
+			"maximum" : 0.0030147382261951025,
+			"minimum" : 0.0022674667319714627
+		},
+		{
+			"_id" : "Comoros",
+			"average" : 0.002543904303433795,
+			"maximum" : 0.003386465840113391,
+			"minimum" : 0.001973678859401531
+		},
+		{
+			"_id" : "Cambodia",
+			"average" : 0.0026769777024375375,
+			"maximum" : 0.0033328500351027125,
+			"minimum" : 0.001755686321414169
+		},
+		{
+			"_id" : "Yemen",
+			"average" : 0.0025520741902141804,
+			"maximum" : 0.0034854896278589237,
+			"minimum" : 0.002091065689284758
+		},
+		{
+			"_id" : "Gambia",
+			"average" : 0.002377340522245323,
+			"maximum" : 0.0029041518380755523,
+			"minimum" : 0.0017840466777748912
+		},
+		{
+			"_id" : "New Caledonia",
+			"average" : 0.0025505881788345543,
+			"maximum" : 0.0026939955901091705,
+			"minimum" : 0.002407180767559938
+		},
+		{
+			"_id" : "Egypt",
+			"average" : 0.0024279172249085583,
+			"maximum" : 0.003203372250044894,
+			"minimum" : 0.0017650429873238074
+		},
+		{
+			"_id" : "United Kingdom",
+			"average" : 0.0023785736038980996,
+			"maximum" : 0.003190315898243853,
+			"minimum" : 0.0019427928671881646
+		},
+		{
+			"_id" : "Burkina Faso",
+			"average" : 0.0027581473331497785,
+			"maximum" : 0.003984736448162323,
+			"minimum" : 0.001987492441626006
+		},
+		{
+			"_id" : "United States",
+			"average" : 0.0025733503110998758,
+			"maximum" : 0.0036695149419991684,
+			"minimum" : 0.0018501182435921705
+		},
+		{
+			"_id" : "Ghana",
+			"average" : 0.0025575128160491875,
+			"maximum" : 0.003250433727787583,
+			"minimum" : 0.001951381185127508
+		},
+		{
+			"_id" : "Trinidad and Tobago",
+			"average" : 0.0027598645704582985,
+			"maximum" : 0.0031519844903401175,
+			"minimum" : 0.0022714055076873125
+		},
+		{
+			"_id" : "French Polynesia",
+			"average" : 0.0025351408860541462,
+			"maximum" : 0.0028539227949185672,
+			"minimum" : 0.0020299688460981413
+		},
+		{
+			"_id" : "Madagascar",
+			"average" : 0.002478315354739493,
+			"maximum" : 0.003018958373732738,
+			"minimum" : 0.0017556666479697988
+		},
+		{
+			"_id" : "French Guiana",
+			"average" : 0.002559150976361709,
+			"maximum" : 0.0028911219025396606,
+			"minimum" : 0.002227180050183758
+		},
+		{
+			"_id" : "Samoa",
+			"average" : 0.0020544882004532683,
+			"maximum" : 0.0020544882004532683,
+			"minimum" : 0.0020544882004532683
+		},
+		{
+			"_id" : "Fiji",
+			"average" : 0.0021202149695398855,
+			"maximum" : 0.0021202149695398855,
+			"minimum" : 0.0021202149695398855
+		},
+		{
+			"_id" : "Democratic Republic of the Congo",
+			"average" : 0.0026530271205495305,
+			"maximum" : 0.0033515401571866743,
+			"minimum" : 0.0018275531401604772
+		},
+		{
+			"_id" : "Macedonia",
+			"average" : 0.0025169543167338254,
+			"maximum" : 0.0032525694177860534,
+			"minimum" : 0.00204950521872469
+		},
+		{
+			"_id" : "Ecuador",
+			"average" : 0.002566255028757021,
+			"maximum" : 0.003154075759540046,
+			"minimum" : 0.0019837789435759386
+		},
+		{
+			"_id" : "Uruguay",
+			"average" : 0.002532476196226835,
+			"maximum" : 0.0034361426322308108,
+			"minimum" : 0.0020368800960879323
+		},
+		{
+			"_id" : "Guam",
+			"average" : 0.002245019365812172,
+			"maximum" : 0.0024012673635721276,
+			"minimum" : 0.0020673090321864907
+		},
+		{
+			"_id" : "France",
+			"average" : 0.002517599694947111,
+			"maximum" : 0.004068709814176658,
+			"minimum" : 0.001489181034611511
+		},
+		{
+			"_id" : "Bangladesh",
+			"average" : 0.0026693456288940415,
+			"maximum" : 0.003406297114172177,
+			"minimum" : 0.0019809821191475773
+		},
+		{
+			"_id" : "Iran",
+			"average" : 0.0025852744467464764,
+			"maximum" : 0.0037980208563155086,
+			"minimum" : 0.0018237996217377764
+		},
+		{
+			"_id" : "Panama",
+			"average" : 0.0024992264629881034,
+			"maximum" : 0.0033204916913317146,
+			"minimum" : 0.0020497034879989775
+		},
+		{
+			"_id" : "Brunei",
+			"average" : 0.002502697259105827,
+			"maximum" : 0.002502697259105827,
+			"minimum" : 0.002502697259105827
+		},
+		{
+			"_id" : "Sweden",
+			"average" : 0.002572035493982662,
+			"maximum" : 0.0040088590561693106,
+			"minimum" : 0.0017422055894220155
+		},
+		{
+			"_id" : "Tanzania",
+			"average" : 0.0026056901510041574,
+			"maximum" : 0.00349992957297564,
+			"minimum" : 0.0017235920520681854
+		},
+		{
+			"_id" : "East Timor",
+			"average" : 0.002582797875266231,
+			"maximum" : 0.00327295665335962,
+			"minimum" : 0.002152514539442196
+		},
+		{
+			"_id" : "Indonesia",
+			"average" : 0.002545234736236898,
+			"maximum" : 0.004522548881143319,
+			"minimum" : 0.0014752916025545578
+		},
+		{
+			"_id" : "Palestinian Territory",
+			"average" : 0.0025519771078365183,
+			"maximum" : 0.0035541507281911227,
+			"minimum" : 0.001917952511054918
+		},
+		{
+			"_id" : "Japan",
+			"average" : 0.002528897911812306,
+			"maximum" : 0.0037208271542614156,
+			"minimum" : 0.001890452276508069
+		},
+		{
+			"_id" : "Libya",
+			"average" : 0.0027274094200472675,
+			"maximum" : 0.003514959498858504,
+			"minimum" : 0.0021427423728295793
+		},
+		{
+			"_id" : "Pakistan",
+			"average" : 0.002502816349688192,
+			"maximum" : 0.0035541447495735265,
+			"minimum" : 0.0017507302336811123
+		},
+		{
+			"_id" : "South Sudan",
+			"average" : 0.0025958795187276634,
+			"maximum" : 0.0025958795187276634,
+			"minimum" : 0.0025958795187276634
+		},
+		{
+			"_id" : "Martinique",
+			"average" : 0.0024025383631333915,
+			"maximum" : 0.0024025383631333915,
+			"minimum" : 0.0024025383631333915
+		},
+		{
+			"_id" : "Sri Lanka",
+			"average" : 0.0024576523965721474,
+			"maximum" : 0.0028603619664191674,
+			"minimum" : 0.002074442158168758
+		},
+		{
+			"_id" : "Sudan",
+			"average" : 0.0024951753358198898,
+			"maximum" : 0.0026388338263210725,
+			"minimum" : 0.0022771848958184258
+		},
+		{
+			"_id" : "Chile",
+			"average" : 0.0024869680560672285,
+			"maximum" : 0.0029798858408255154,
+			"minimum" : 0.0016951291627010803
+		},
+		{
+			"_id" : "Honduras",
+			"average" : 0.0025480342743338033,
+			"maximum" : 0.003522066445474855,
+			"minimum" : 0.0018483295476526516
+		},
+		{
+			"_id" : "Malawi",
+			"average" : 0.0027299142700133016,
+			"maximum" : 0.0030498934041274014,
+			"minimum" : 0.0023290263279142527
+		},
+		{
+			"_id" : "Macao",
+			"average" : 0.0023988477689826943,
+			"maximum" : 0.0023988477689826943,
+			"minimum" : 0.0023988477689826943
+		},
+		{
+			"_id" : "Poland",
+			"average" : 0.0025263673055942,
+			"maximum" : 0.0036719542808310635,
+			"minimum" : 0.001679139666621858
+		},
+		{
+			"_id" : "Guadeloupe",
+			"average" : 0.0021239436351981607,
+			"maximum" : 0.0022066287052482925,
+			"minimum" : 0.0019172309600728305
+		},
+		{
+			"_id" : "Malta",
+			"average" : 0.002616958044897124,
+			"maximum" : 0.0036019789085882364,
+			"minimum" : 0.00221203842493067
+		},
+		{
+			"_id" : "Mauritania",
+			"average" : 0.002156355023247727,
+			"maximum" : 0.00226996212151413,
+			"minimum" : 0.0020427479249813243
+		},
+		{
+			"_id" : "Philippines",
+			"average" : 0.0025174219655869634,
+			"maximum" : 0.004014921877820496,
+			"minimum" : 0.0015783361633607486
+		},
+		{
+			"_id" : "Oman",
+			"average" : 0.0025688221135833004,
+			"maximum" : 0.002708402216179085,
+			"minimum" : 0.0023599509054084227
+		},
+		{
+			"_id" : "Argentina",
+			"average" : 0.002565610269236933,
+			"maximum" : 0.003413224063185604,
+			"minimum" : 0.0017587334555684252
+		},
+		{
+			"_id" : "Hong Kong",
+			"average" : 0.002728283221221082,
+			"maximum" : 0.002728283221221082,
+			"minimum" : 0.002728283221221082
+		},
+		{
+			"_id" : "Reunion",
+			"average" : 0.002642177569784529,
+			"maximum" : 0.003916506059010436,
+			"minimum" : 0.0018728903481758292
+		},
+		{
+			"_id" : "Vanuatu",
+			"average" : 0.0024697548912916895,
+			"maximum" : 0.002720784148023659,
+			"minimum" : 0.002304931152277455
+		},
+		{
+			"_id" : "Turkey",
+			"average" : 0.002299159106196313,
+			"maximum" : 0.0023218818230827426,
+			"minimum" : 0.002271234002430647
+		},
+		{
+			"_id" : "Cuba",
+			"average" : 0.002637919135685751,
+			"maximum" : 0.0035424098295679753,
+			"minimum" : 0.0018489462979361965
+		},
+		{
+			"_id" : "Nicaragua",
+			"average" : 0.002408450417291497,
+			"maximum" : 0.0030037211079338598,
+			"minimum" : 0.0019775488264201302
+		},
+		{
+			"_id" : "Burundi",
+			"average" : 0.002564831294896216,
+			"maximum" : 0.0028502450131594544,
+			"minimum" : 0.002341760581267604
+		},
+		{
+			"_id" : "Uzbekistan",
+			"average" : 0.0025895086720586504,
+			"maximum" : 0.003230460851219658,
+			"minimum" : 0.0019782197771015648
+		},
+		{
+			"_id" : "Turkmenistan",
+			"average" : 0.0026074693406233423,
+			"maximum" : 0.0030263793694794965,
+			"minimum" : 0.0021536036875349123
+		},
+		{
+			"_id" : "Namibia",
+			"average" : 0.0026183058490338758,
+			"maximum" : 0.0032280397498780375,
+			"minimum" : 0.0019265801708836172
+		},
+		{
+			"_id" : "Haiti",
+			"average" : 0.0025793333454363103,
+			"maximum" : 0.003470650592993631,
+			"minimum" : 0.001863873039318409
+		},
+		{
+			"_id" : "Estonia",
+			"average" : 0.002554213616931857,
+			"maximum" : 0.002868360155605993,
+			"minimum" : 0.0018560878620789444
+		},
+		{
+			"_id" : "Israel",
+			"average" : 0.002529229429699514,
+			"maximum" : 0.003014483568029636,
+			"minimum" : 0.0016525549024295875
+		},
+		{
+			"_id" : "El Salvador",
+			"average" : 0.0025348361001442795,
+			"maximum" : 0.0033562995764845316,
+			"minimum" : 0.0021925828160659017
+		},
+		{
+			"_id" : "Central African Republic",
+			"average" : 0.0023916787330266966,
+			"maximum" : 0.002895456123722056,
+			"minimum" : 0.001961489940198228
+		},
+		{
+			"_id" : "Botswana",
+			"average" : 0.002441290786322756,
+			"maximum" : 0.002718178743838766,
+			"minimum" : 0.0017209620064111166
+		},
+		{
+			"_id" : "Brazil",
+			"average" : 0.002559223494028106,
+			"maximum" : 0.0040629137270681995,
+			"minimum" : 0.0017455901881799915
+		},
+		{
+			"_id" : "Russia",
+			"average" : 0.0025347516434664425,
+			"maximum" : 0.003988445766499928,
+			"minimum" : 0.0015959050973980357
+		},
+		{
+			"_id" : "Mongolia",
+			"average" : 0.0023994442471949873,
+			"maximum" : 0.003147600262984878,
+			"minimum" : 0.0019123348100503089
+		},
+		{
+			"_id" : "Germany",
+			"average" : 0.002443514564551587,
+			"maximum" : 0.0032563931924521764,
+			"minimum" : 0.001677970254517681
+		},
+		{
+			"_id" : "Portugal",
+			"average" : 0.002539120804385175,
+			"maximum" : 0.003966789019620169,
+			"minimum" : 0.0015639034707565335
+		},
+		{
+			"_id" : "Belize",
+			"average" : 0.0023220039319907467,
+			"maximum" : 0.002622341661344843,
+			"minimum" : 0.0018424047224128545
+		},
+		{
+			"_id" : "Mexico",
+			"average" : 0.0025438113722142594,
+			"maximum" : 0.0036270875149671798,
+			"minimum" : 0.0017298446794148455
+		},
+		{
+			"_id" : "Laos",
+			"average" : 0.0024706560500173144,
+			"maximum" : 0.0028470547935007056,
+			"minimum" : 0.0020414405907869934
+		},
+		{
+			"_id" : null,
+			"average" : null,
+			"maximum" : null,
+			"minimum" : null
+		},
+		{
+			"_id" : "Gabon",
+			"average" : 0.002565753672826553,
+			"maximum" : 0.0029048270894929465,
+			"minimum" : 0.00222668025616016
+		}
+	],
+	"_useReadCommands" : true,
+	"_cursorid" : NumberLong("7443962664583883554"),
+	"_batchSize" : undefined,
+	"_maxAwaitTimeMS" : undefined,
+	"_txnNumber" : undefined,
+	"_ns" : "nbd.people",
+	"_db" : nbd,
+	"_collName" : "people",
+	"_cursorHandle" : {
+		
+	},
+	"isClosed" : function() {
+    if (this._useReadCommands) {
+        return bsonWoCompare({_: this._cursorid}, {_: NumberLong(0)}) === 0;
+    }
+    return this._cursor.isClosed();
+},
+	"isExhausted" : function() {
+    return this.isClosed() && this.objsLeftInBatch() === 0;
+},
+	"close" : function() {
+    if (!this._useReadCommands) {
+        this._cursor.close();
+    } else if (bsonWoCompare({_: this._cursorid}, {_: NumberLong(0)}) !== 0) {
+        var killCursorCmd = {
+            killCursors: this._collName,
+            cursors: [this._cursorid],
+        };
+        var cmdRes = this._db.runCommand(killCursorCmd);
+        if (cmdRes.ok != 1) {
+            throw _getErrorWithCode(cmdRes, "killCursors command failed: " + tojson(cmdRes));
+        }
+
+        this._cursorHandle.zeroCursorId();
+        this._cursorid = NumberLong(0);
+    }
+},
+	"_updatePostBatchResumeToken" : function(cursorObj) {
+    if (cursorObj.postBatchResumeToken) {
+        this._postBatchResumeToken = cursorObj.postBatchResumeToken;
+        if ((cursorObj.firstBatch || cursorObj.nextBatch).length === 0) {
+            this._resumeToken = this._postBatchResumeToken;
+        }
+        this._isChangeStream = true;
+    }
+},
+	"_runGetMoreCommand" : function() {
+    // Construct the getMore command.
+    var getMoreCmd = {getMore: this._cursorid, collection: this._collName};
+
+    if (this._batchSize) {
+        getMoreCmd["batchSize"] = this._batchSize;
+    }
+
+    // maxAwaitTimeMS is only supported when using read commands.
+    if (this._maxAwaitTimeMS) {
+        getMoreCmd.maxTimeMS = this._maxAwaitTimeMS;
+    }
+
+    if (this._txnNumber) {
+        getMoreCmd.txnNumber = NumberLong(this._txnNumber);
+        getMoreCmd.autocommit = false;
+    }
+
+    // Deliver the getMore command, and check for errors in the response.
+    var cmdRes = this._db.runCommand(getMoreCmd);
+    assert.commandWorked(cmdRes, () => "getMore command failed: " + tojson(cmdRes));
+
+    if (this._ns !== cmdRes.cursor.ns) {
+        throw Error("unexpected collection in getMore response: " + this._ns +
+                    " != " + cmdRes.cursor.ns);
+    }
+
+    if (!cmdRes.cursor.id.compare(NumberLong("0"))) {
+        this._cursorHandle.zeroCursorId();
+        this._cursorid = NumberLong("0");
+    } else if (this._cursorid.compare(cmdRes.cursor.id)) {
+        throw Error("unexpected cursor id: " + this._cursorid.toString() +
+                    " != " + cmdRes.cursor.id.toString());
+    }
+
+    // If the command result represents a change stream cursor, update our postBatchResumeToken.
+    this._updatePostBatchResumeToken(cmdRes.cursor);
+
+    // Successfully retrieved the next batch.
+    this._batch = cmdRes.cursor.nextBatch.reverse();
+
+    // The read timestamp of a snapshot read cursor should not change over the lifetime of the
+    // cursor.
+    if (cmdRes.cursor.atClusterTime) {
+        assert.eq(this._atClusterTime, cmdRes.cursor.atClusterTime);
+    }
+},
+	"_hasNextUsingCommands" : function() {
+    assert(this._useReadCommands);
+
+    if (!this._batch.length) {
+        if (!this._cursorid.compare(NumberLong("0"))) {
+            return false;
+        }
+
+        this._runGetMoreCommand();
+    }
+
+    return this._batch.length > 0;
+},
+	"hasNext" : function() {
+    if (this._useReadCommands) {
+        return this._hasNextUsingCommands();
+    }
+
+    return this._batch.length || this._cursor.hasNext();
+},
+	"next" : function() {
+    if (this._batch.length) {
+        // Pop the next result off the batch.
+        const nextDoc = this._batch.pop();
+        if (this._isChangeStream) {
+            // If this is the last result in the batch, the postBatchResumeToken becomes the current
+            // resume token for the cursor. Otherwise, the resume token is the _id of 'nextDoc'.
+            this._resumeToken = (this._batch.length ? nextDoc._id : this._postBatchResumeToken);
+        }
+        return nextDoc;
+    } else if (this._useReadCommands) {
+        // Have to call hasNext() here, as this is where we may issue a getMore in order to retrieve
+        // the next batch of results.
+        if (!this.hasNext())
+            throw Error("error hasNext: false");
+        return this._batch.pop();
+    } else {
+        if (!this._cursor.hasNext())
+            throw Error("error hasNext: false");
+
+        var ret = this._cursor.next();
+        if (ret.$err)
+            throw _getErrorWithCode(ret, "error: " + tojson(ret));
+        return ret;
+    }
+},
+	"objsLeftInBatch" : function() {
+    if (this._useReadCommands) {
+        return this._batch.length;
+    } else if (this._batch.length) {
+        return this._batch.length;
+    } else {
+        return this._cursor.objsLeftInBatch();
+    }
+},
+	"getId" : function() {
+    return this._cursorid;
+},
+	"getResumeToken" : function() {
+    // Return the most recent recorded resume token, if such a token exists.
+    return this._resumeToken;
+},
+	"getClusterTime" : function() {
+    // Return the read timestamp for snapshot reads, or undefined for other readConcern levels.
+    return this._atClusterTime;
+},
+	"help" : function() {
+    // This is the same as the "Cursor Methods" section of DBQuery.help().
+    print("\nCursor methods");
+    print("\t.toArray() - iterates through docs and returns an array of the results");
+    print("\t.forEach( func )");
+    print("\t.map( func )");
+    print("\t.hasNext()");
+    print("\t.next()");
+    print(
+        "\t.objsLeftInBatch() - returns count of docs left in current batch (when exhausted, a new getMore will be issued)");
+    print("\t.itcount() - iterates through documents and counts them");
+    print(
+        "\t.getResumeToken() - for a change stream cursor, obtains the most recent valid resume token, if it exists.");
+    print("\t.getClusterTime() - returns the read timestamp for snapshot reads.");
+    print("\t.pretty() - pretty print each document, possibly over multiple lines");
+    print("\t.close()");
+},
+	"toArray" : function() {
+    if (this._arr)
+        return this._arr;
+
+    var a = [];
+    while (this.hasNext())
+        a.push(this.next());
+    this._arr = a;
+    return a;
+},
+	"forEach" : function(func) {
+    while (this.hasNext())
+        func(this.next());
+},
+	"map" : function(func) {
+    var a = [];
+    while (this.hasNext())
+        a.push(func(this.next()));
+    return a;
+},
+	"itcount" : function() {
+    var num = 0;
+
+    // Track how many bytes we've used this cursor to iterate iterated.  This function can be called
+    // with some very large cursors.  SpiderMonkey appears happy to allow these objects to
+    // accumulate, so regular gc() avoids an overly large memory footprint.
+    //
+    // TODO: migrate this function into c++
+    var bytesSinceGC = 0;
+
+    while (this.hasNext()) {
+        num++;
+        var nextDoc = this.next();
+        bytesSinceGC += Object.bsonsize(nextDoc);
+
+        // Garbage collect every 10 MB.
+        if (bytesSinceGC > (10 * 1024 * 1024)) {
+            bytesSinceGC = 0;
+            gc();
+        }
+    }
+    return num;
+},
+	"shellPrint" : function() {
+    try {
+        var start = new Date().getTime();
+        var n = 0;
+        while (this.hasNext() && n < DBQuery.shellBatchSize) {
+            var s = this._prettyShell ? tojson(this.next()) : tojson(this.next(), "", true);
+            print(s);
+            n++;
+        }
+        if (typeof _verboseShell !== 'undefined' && _verboseShell) {
+            var time = new Date().getTime() - start;
+            print("Fetched " + n + " record(s) in " + time + "ms");
+        }
+        if (this.hasNext()) {
+            print("Type \"it\" for more");
+            ___it___ = this;
+        } else {
+            ___it___ = null;
+        }
+    } catch (e) {
+        print(e);
+    }
+},
+	"pretty" : function() {
+    this._prettyShell = true;
+    return this;
+}
+}

@@ -1,0 +1,1 @@
+printjson(db.people.mapReduce(function() {for (var h in this) { if (this.nationality === "Poland") { for (var i in this.credit) {emit ({id: this.credit[i].currency, balance: this.credit[i].balance}, 1);}}}}, function(currency, balance) {return [Array.avg(balance), Array.sum(balance)]}, {out: {inline:1}}))

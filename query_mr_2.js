@@ -1,0 +1,1 @@
+printjson(db.people.mapReduce(function() {for(var i in this.credit) { emit ({id: this.credit[i].currency, blance: this.credit[i].balance}, 1);}}, function(currency, balances){return Array.sum(balances)}, {out: {inline:1}}))

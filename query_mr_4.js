@@ -1,0 +1,1 @@
+printjson(db.people.mapReduce(function() {emit (this.nationality, parseFloat(this.weight)/parseFloat(this.height)*parseFloat(this.height))},function(key, value) {var max = Math.max.apply(null, value); var min = Math.min.apply(null, value); return [Array.avg(value),max, min]},{out: {inline:1}}))

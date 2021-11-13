@@ -1,0 +1,1 @@
+printjson(db.people.mapReduce(function() { emit (this.sex, [parseFloat(this.weight), parseFloat(this.height)])}, function(key, [weights, heights]) {return [Array.avg(weights), Array.avg(heights)]}, {out: {inline:1}}))
